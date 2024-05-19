@@ -1,0 +1,33 @@
+[gd_scene load_steps=7 format=3 uid="uid://bv4phvqg5qrk5"]
+
+[ext_resource type="Texture2D" uid="uid://bd8b6x0s827sf" path="res://graphics/ball.svg" id="1_akwy7"]
+[ext_resource type="Script" path="res://ball.gd" id="1_kw8c6"]
+[ext_resource type="Shader" path="res://ball.gdshader" id="2_powh1"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_c08ej"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_a57wn"]
+radius = 6874.38
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3gek7"]
+resource_local_to_scene = true
+shader = ExtResource("2_powh1")
+shader_parameter/from = Color(1, 1, 0, 1)
+shader_parameter/to = Color(1, 0, 0, 1)
+shader_parameter/tolerance = 0.783
+
+[node name="Ball" type="RigidBody2D"]
+scale = Vector2(0.004, 0.004)
+physics_material_override = SubResource("PhysicsMaterial_c08ej")
+continuous_cd = 1
+max_contacts_reported = 100
+contact_monitor = true
+script = ExtResource("1_kw8c6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_a57wn")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_3gek7")
+scale = Vector2(100, 100)
+texture = ExtResource("1_akwy7")

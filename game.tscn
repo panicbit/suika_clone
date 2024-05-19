@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bf8gqch48ea1m"]
+
+[ext_resource type="Script" path="res://game.gd" id="1_1rquo"]
+[ext_resource type="PackedScene" uid="uid://d5kaey3wbh5f" path="res://field.tscn" id="1_xa7ly"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_1rquo")
+
+[node name="Field" parent="." instance=ExtResource("1_xa7ly")]
+
+[node name="Balls" type="Node2D" parent="."]

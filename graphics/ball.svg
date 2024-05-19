@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="36.091042mm"
+   height="36.091042mm"
+   viewBox="0 0 36.091042 36.091042"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="ball.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.9866021"
+     inkscape:cx="182.97574"
+     inkscape:cy="56.881042"
+     inkscape:window-width="1763"
+     inkscape:window-height="1266"
+     inkscape:window-x="950"
+     inkscape:window-y="60"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient10"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#f6eba6;stop-opacity:1;"
+         offset="0.51242828"
+         id="stop10" />
+      <stop
+         style="stop-color:#ffe525;stop-opacity:1;"
+         offset="0.51242828"
+         id="stop11" />
+    </linearGradient>
+    <linearGradient
+       id="swatch9">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop9" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10"
+       id="radialGradient11"
+       cx="40.687668"
+       cy="24.838789"
+       fx="40.687668"
+       fy="24.838789"
+       r="18.045521"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-17.314793,-10.788784)">
+    <circle
+       style="fill:url(#radialGradient11);stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="path1"
+       cx="35.360313"
+       cy="28.834305"
+       r="17.913229" />
+  </g>
+</svg>
